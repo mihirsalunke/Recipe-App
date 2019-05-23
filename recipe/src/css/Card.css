@@ -1,0 +1,58 @@
+.recipe {
+    text-align: center;
+<<<<<<< HEAD
+    margin: 4rem;
+=======
+    margin: 3.4rem;
+    margin-bottom: 0.5rem;
+>>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
+    padding: 1rem;
+    background-color: rgba(197, 168, 115, 0.7);
+    display: inline-block;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    border-width: .25rem;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+
+    transition: transform .25s ease-out;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+h2:hover{
+<<<<<<< HEAD
+    color: #00fff2;
+=======
+    color: greenyellow;
+>>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
+    cursor: pointer;
+}
+
+.image{
+    height: 100px;
+    width: 250px;
+}
+
+<<<<<<< HEAD
+img {
+    height: 100%;
+    width: 100%;
+=======
+.image > img {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+>>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
+}
+
+.recipe:hover {
+    transform: scale(1.5);
+}
+
+.recipe:active{
+    transform: scale(1.25);
+}
