@@ -7,7 +7,6 @@ const RecipeDetalis = ({ showAllRecipes, recipe }) => {
             <button onClick={showAllRecipes}>See all recipes</button>
             <div className="recipeDetails">
                 <div className="title">
-                    <label>Title:</label>
                     <div>{recipe.title}</div>
                 </div>
                 <div className="images">
