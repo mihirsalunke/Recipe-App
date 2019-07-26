@@ -149,8 +149,6 @@ class App extends Component {
     });
   }
 
-<<<<<<< HEAD
-=======
   componentDidMount() {
     this.poll();
   }
@@ -167,7 +165,6 @@ class App extends Component {
     }, 2000)
   }
 
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
   render() {
     if(this.state.allRecipesPage) {
         const filteredRecipes = this.state.recipes.filter(recipes => {
@@ -186,17 +183,6 @@ class App extends Component {
     } else if(this.state.recipeFormPage){
       return (
         <div className="App">
-<<<<<<< HEAD
-        <NewRecipeForm 
-          cancel={this.showAllRecipes}
-          titleChange={this.handleTitleChange}
-          ingredientsChange={this.handleIngredientsChange}
-          instructionsChange={this.handleInstructionsChange}
-          imageChange={this.handleImageChange}
-          submitRecipe={this.handleSubmitRecipe}
-          showerror={this.showError(this.state.error)}
-        />
-=======
           <NewRecipeForm 
             cancel={this.showAllRecipes}
             titleChange={this.handleTitleChange}
@@ -206,7 +192,6 @@ class App extends Component {
             submitRecipe={this.handleSubmitRecipe}
             showerror={this.showError(this.state.error)}
           />
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
       </div>
       );
     } else if(this.state.detailsPage) {
