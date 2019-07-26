@@ -170,7 +170,6 @@ class App extends Component {
         const filteredRecipes = this.state.recipes.filter(recipes => {
           return recipes.title.toLowerCase().includes(this.state.searchfield.toLowerCase());
         })
-
         return (
           <div className="App">
             <SearchBox searchChange={this.handleSearchChange} />
