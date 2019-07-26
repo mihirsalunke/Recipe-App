@@ -9,12 +9,7 @@
 
 .addRecipe > button {
     color: white;
-<<<<<<< HEAD
-    background-color: blue;
-=======
     background-color: rgba(0, 0, 0, 0.7);
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
-    color: white;
     cursor: pointer;
     background-position: top;
     text-align: center;
