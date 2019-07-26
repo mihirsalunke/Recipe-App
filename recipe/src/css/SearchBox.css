@@ -7,12 +7,6 @@
     height: 2rem;
     width: 20rem;
     padding: var(--spacing-medium);
-<<<<<<< HEAD
-    border-style: solid; border-width: 1px;
-    border-color: var(--near-black);
-    background-color: #a2dfff;
-    border-radius: 5px;
-=======
     border-style: solid;
     border-width: 1px;
     border-color: var(--near-black);
@@ -23,5 +17,4 @@
 
 ::placeholder{
     color: aliceblue;
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
 }
