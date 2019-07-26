@@ -10,18 +10,15 @@ body {
 .recipes {
   overflow: scroll;
   border: 5px solid black;
-<<<<<<< HEAD
   height: 620px;
 }
 
 .error > div{
   color: red;
-=======
   height: 550px;
 }
 
 .error > div{
   color: rgba(255, 0, 0, 0.836);
   font-weight: bold;
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
 }
