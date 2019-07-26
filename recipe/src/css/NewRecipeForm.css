@@ -1,27 +1,17 @@
 .newRecipeForm {
     max-width: 500px;
-<<<<<<< HEAD
-    background-color: rgba(100, 100, 100, 0.5);
-=======
     background-color: rgba(197, 168, 115, 0.7);
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
     border: 2px solid black;
     padding: 5rem;
     margin-top: 5%;
     margin-right: 25%;
     margin-left: 25%;
-<<<<<<< HEAD
-=======
-    margin-bottom: 5%;
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
 }
 
 label {
     display: block;
 }
 
-<<<<<<< HEAD
-=======
 input {
     width: 80%;
 }
@@ -31,7 +21,6 @@ textarea {
     width: 80%;
 }
 
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
 .recipe-title {
     padding: 0.5rem;
 }
@@ -54,12 +43,7 @@ textarea {
 
 button {
     color: white;
-<<<<<<< HEAD
-    background-color: blue;
-    color: white;
-=======
     background-color: rgba(0, 0, 0, 0.7);
->>>>>>> f7a0fe252ffa9bc525c588d0126d6be013cdcc2b
     cursor: pointer;
     background-position: top;
     text-align: center;
