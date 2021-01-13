@@ -1,3 +1,5 @@
+### My Event hosting React App: https://github.com/mihirsalunke/seainfo6150-final-project-webapp
+
 ### Installation
 
 * download the repo
